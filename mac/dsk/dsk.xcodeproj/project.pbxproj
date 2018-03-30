@@ -11,6 +11,7 @@
 		2E27725D206EC2C800F16917 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E27725C206EC2C800F16917 /* ViewController.swift */; };
 		2E27725F206EC2C800F16917 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E27725E206EC2C800F16917 /* Assets.xcassets */; };
 		2E277262206EC2C800F16917 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E277260206EC2C800F16917 /* Main.storyboard */; };
+		2E27726B206EC74300F16917 /* DragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E27726A206EC74300F16917 /* DragView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		2E277261206EC2C800F16917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E277263206EC2C800F16917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E277264206EC2C800F16917 /* dsk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dsk.entitlements; sourceTree = "<group>"; };
+		2E27726A206EC74300F16917 /* DragView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				2E277260206EC2C800F16917 /* Main.storyboard */,
 				2E277263206EC2C800F16917 /* Info.plist */,
 				2E277264206EC2C800F16917 /* dsk.entitlements */,
+				2E27726A206EC74300F16917 /* DragView.swift */,
 			);
 			path = dsk;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			files = (
 				2E27725D206EC2C800F16917 /* ViewController.swift in Sources */,
 				2E27725B206EC2C800F16917 /* AppDelegate.swift in Sources */,
+				2E27726B206EC74300F16917 /* DragView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
