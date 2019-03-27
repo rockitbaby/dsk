@@ -12,6 +12,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
+	"net/url"
 	"path/filepath"
 	"time"
 
@@ -479,7 +480,13 @@ func (api APIv1) NodeAssetHandler(w http.ResponseWriter, r *http.Request) {
 //   /api/v1/search?q={query}
 func (api APIv1) SearchHandler(w http.ResponseWriter, r *http.Request) {
 	wr := &HTTPResponder{w, r, "application/json"}
-	q := r.URL.Query().Get("q")
+	eq := r.URL.Query().Get("q")
+	q, err := url.QueryUnescape(eq)
+	
+	if err != nil {
+		wr.Error(HTTPErr, err)
+		return
+	}
 
 	results, total, took, err := api.search.LegacyFilterSearch(q)
 	if err != nil {
