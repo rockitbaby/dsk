@@ -73,8 +73,7 @@ class Search {
     } else {
       Client.filter(this.query)
         .then((res) => {
-          let urls = res.nodes.map(n => n.url);
-
+          let urls = res.urls;
           this.onFilter(this.tree.filteredBy(urls).root, this.query);
           this.total = res.total;
           this.took = res.took;

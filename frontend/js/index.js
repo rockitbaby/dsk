@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       Client.filter(q)
         .then((res) => {
-          let urls = res.nodes.map(_n => _n.url);
+          let urls = res.urls;
 
           nav.setRoot(tree.filteredBy(urls).root);
           nav.render();

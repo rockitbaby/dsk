@@ -66,7 +66,7 @@ class Client {
       params.set('index', 'wide');
     }
 
-    return this.fetch(`/api/v2/filter?${params.toString()}`);
+    return this.fetch(`/api/v1/search?${params.toString()}`);
   }
 
   // Performs API requests. Fail promise when there is a network issue (catch)
