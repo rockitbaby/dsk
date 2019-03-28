@@ -307,7 +307,7 @@ class Page {
       let h1 = document.createElement('h1');
       h1.classList.add('meta-data-container__title');
       h1.classList.add('t-delta-sans-bold');
-      h1.innerText = 'term';
+      h1.innerText = 'Terminus';
       metaDataContainer.appendChild(h1);
       let p = document.createElement('p');
       p.classList.add('meta-data-container__info');

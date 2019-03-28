@@ -1,0 +1,15 @@
+a[href$="q=impl:outdated"] {
+  background-color: #F53000;
+}
+
+a[href$="q=impl:marian"] {
+  background-color: #3A67E5;
+}
+
+a[href$="q=impl:phoenix"] {
+  background-color: #3A67E5;
+}
+
+a[href$="q=impl:japan"] {
+  background-color: #3A67E5;
+}

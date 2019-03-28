@@ -10,8 +10,8 @@
 :root {
   --color-white: #FFFFFF;
   --color-black: #000000;
-  --color-blue: #001DFF; /* Electric Blue */
-  --color-cyan: #52D0AF; /* Toothpaste Green */
+  --color-blue: #3A67E5; /* Electric Blue */
+  --color-cyan: #30DF7B; /* Toothpaste Green */
 
   --color-gray-200: #404040; /* Gray-200 25% */
   --color-gray-500: #808080; /* Gray-500 50% */
